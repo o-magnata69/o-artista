@@ -8,9 +8,10 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
+  gap: 800px;
 }
 
 #logo img {
@@ -133,7 +134,7 @@ main.m #sec_ctd p {
 }
 
 #descricao {
-  max-width: 500px;
+  max-width: 700px;
   padding: 1rem;
   background-color: #fff;
   border: 1px solid #eee;
@@ -151,7 +152,7 @@ main.m #sec_ctd p {
 #acesso {
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
   color: white;
   font-weight: bold;
   text-align: center;
@@ -195,7 +196,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1150px;
+  gap: 950px;
   text-align: left;
 }
 
